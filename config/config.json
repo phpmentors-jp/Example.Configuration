@@ -1,0 +1,24 @@
+[
+    {
+        "blog_url" : "http://shibayu36.hatenablog.com/",
+        "permission" : "hogehoge",
+        "can_be_edited_by" : [
+            "shiba_yu36"
+        ]
+    },
+    {
+        "blog_url" : "http://shibayu36-private.hatenablog.com/",
+        "permission" : "private",
+        "can_be_edited_by" : [
+            "shiba_yu36",
+            "shiba_yu37"
+        ]
+    },
+    {
+        "blog_url" : "http://blog.example.com/",
+        "permission" : "public",
+        "can_be_edited_by" : [
+            "example-user"
+        ]
+    }
+]

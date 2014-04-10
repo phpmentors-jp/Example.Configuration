@@ -1,0 +1,20 @@
+{
+    "name": "example/config",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Example\\Config\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/config": "~2.4",
+        "symfony/yaml": "~2.4",
+        "respect/validation": "~0.5"
+    }
+}
